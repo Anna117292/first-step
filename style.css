@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.logo {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 181px;
+  text-decoration: none;
+  background-color: #484642;
+  color: #fff;
+}
+
+.logo-svg {
+  fill: currentColor;
+}
+
+.logo-txt {
+  font-family: Raleway;
+  font-size: 34px;/* Approximation due to font substitution */
+  font-weight: 400;
+  text-align: right;
+}
+
+.logo:hover{
+  color: #998675;
+}
+
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
+
